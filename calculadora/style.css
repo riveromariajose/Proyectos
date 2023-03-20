@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    top: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(rgb(87, 214, 236), rgb(206, 196, 112), rgb(230, 124, 204) );
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height:500px;
+    padding:10px 0;
+    background: linear-gradient(#e26790, #b44478);
+    border:#000 1px solid;
+    border-radius:30px;
+    box-shadow:rgba(0, 0, 0, 0.571) 0px 1px 20px 5px, inset rgba(255,255,255,0.9) 0px 1px 1px -1px;
+    text-align: center;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    padding-right: 10px;
+    width: 350px;
+    height:95px;
+    margin: 12px auto 30px;
+    text-align: right;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    overflow:hidden;
+    border:#000 1px solid;
+    border-radius:25px;
+    background: #00131fa0;
+    box-shadow:
+        inset rgba(0,0,0,1) 0px 1px 4px, 
+        inset rgba(225,225,225,0.3) 0px -2px 4px -2px;
+    font-family: arial;
+}
+
+.screen p{
+    margin-top: 5px;;
+    font-size: 30px;
+    color: rgba(255, 249, 249, 0.623);
+}
+
+.screen input{
+    color: white;
+    background: transparent;
+    font-size: 35px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    text-align: right;
+}
+
+.screen input:focus{
+    outline: none;
+    text-align: right;
+}
+
+.screen input::placeholder{
+    color: white;
+    font-size: 35px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: #12222e;
+    width: 60px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 5px #0000009f;
+    filter: drop-shadow(0px 0px 1px #00000085);
+    font-size: 20px;
+}
+
+button:hover{
+    filter: drop-shadow(0px 0px 3px #000000a8);
+}
+
+.botones_izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botones_izquierda div{
+    display: flex;
+    gap: 15px;
+}
+
+.botones_derecha{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.cero{
+    width: 195px;
+}
+
+.igual{
+    height: 135px;
+}
