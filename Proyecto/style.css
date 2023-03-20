@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 8% 92%;
+    margin: 0px;
+    top: 0px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1f1f1;
+    font-family: Arial;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside{
+    margin-bottom: 15px;
+}
+
+.icono{
+    margin-top: 40px;
+    width: 25px;
+}
+
+#Videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    font-family: Arial;
+    color: #f1f1f1;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+#BarraDeRecomendados{
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.BotonRecomendacion{
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    padding: 10px;
+    color: #f1f1f1;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+
+#IconoLupa{
+    background-color: rgb(29, 28, 28);
+    border-radius: 0px 25px 25px 0px;
+    height: 42px;
+    border-style: solid;
+    margin-left: -1px;
+    border:none
+}
+
+.Lupa{
+    width: 30px;
+    padding:8px ;
+}
+
+
+.Microfono{
+    width: 25px;
+    padding: 5px;
+}
+
+#Microfono{
+    background-color: rgb(29, 28, 28);
+    border-radius: 100%;
+    border-style: solid;
+}
+
+.Busqueda{ 
+    width: 500px;
+    height: 36px;
+    background-color:transparent;
+    border-radius: 25px 0px 0px 25px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.InputLupa{
+    display: flex;
+    align-items: center
+}
+
+
+.BarraDeBusqueda{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.FotoPequeña{
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 8px;
+}
+
+.TituloCanalVistas{
+    display: flex;
+    font-size: 15px;
+    gap: 10px;
+}
+
+.TituloCanalVistas h3{
+    overflow-x: hidden;
+    width: 250px;
+}
+
+h3{
+    font-size: 15px;
+}
+
+.CajaDeVideo{
+    border-radius: 15px;
+    width: 410px;
+}
+
+.ImagenPequeño{
+    border-radius: 100%;
+}
+
+.Botton{
+    width: 25px;
+}
+
+.BarraNotificaciones{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
